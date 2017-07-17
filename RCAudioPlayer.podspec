@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = 'RCAudioPlayer is a light-weight component to play sound effects in iOS.'
   s.source       = { :git => "https://github.com/relatedcode/RCAudioPlayer.git", :tag => 'v1.0' }
   s.platform     = :ios
-  s.source_files = 'ProgressHUD/ProgressHUD/RCAudioPlayer.{h,m}'
+  s.source_files = 'RCAudioPlayer/*.{h,m}'
   s.resources    = ''
   s.requires_arc = true
 end
