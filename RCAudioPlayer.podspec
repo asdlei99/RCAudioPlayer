@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/relatedcode/RCAudioPlayer.git", :tag => 'v1.0' }
   s.platform     = :ios
   s.source_files = 'RCAudioPlayer/*.{h,m}'
-  s.resources    = ''
   s.requires_arc = true
 end
